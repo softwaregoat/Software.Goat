@@ -1,0 +1,176 @@
+span.result {
+    background: linear-gradient(180deg, #fc8c14 0, #f77d0e);
+    border-radius: 3px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+textarea {
+    font-weight: bold !important;
+    font-size: 16px !important;
+    font-family: Georgia !important;
+}
+
+.IsChatboxMode {
+    width: 320px;
+}
+
+[data-size=xsmall],
+.gaf-container p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+[data-size=xxsmall] {
+    font-size: 14px;
+}
+
+span.NativeElement span {
+    font-size: 16px !important;
+}
+
+span.bid-checked {
+    font-size: 16px !important;
+    border: 1px solid red;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2px;
+    color: red;
+}
+
+div.checked-result {
+    margin-top: 10px;
+}
+
+.BidProposal-footer-action {
+    margin-right: auto;
+}
+
+app-footer-freelancer,
+app-upgrades-bid-form,
+#upsell-banners-anchor,
+.Footer-section,
+.bid-next-project,
+fl-bit.NavigationItem.NavigationItem--postProject>fl-button,
+fl-bit.UserCard-details>fl-text>div,
+#upsell-banners-anchor,
+div.search-filter-wrapper,
+div.project-brief-cta,
+a#add-milestone-proposal,
+div#proposal-slider,
+.fl-banner.fl-banner-compact.inline-bids-bid-ranking-guide-banner.PageFreelancerPvp-banner.FeatureFlag-community {
+    display: none;
+}
+
+app-message-list,
+fl-bit.ChatBox,
+app-messaging-contacts.IsCompact,
+div.ps-content>app-thread-set:nth-child(3)>fl-list>fl-list-item>fl-bit>fl-bit>fl-bit.BitsListItemHeader.OuterPadding.First.Last {
+    border: solid 1px #1073cb !important;
+}
+
+fl-list-item-body.ThreadSetBody fl-bit.ThreadList fl-bit.ThreadListItem fl-bit.MainRow {
+    padding: 2px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.ThreadList fl-bit.ThreadListItem fl-bit.MainRow fl-bit.TextContainer fl-username {
+    flex-wrap: unset;
+}
+
+fl-bit.UserAvatar fl-bit.UserAvatar-inner fl-online-indicator.OnlineStatus div.Indicator {
+    width: 15px;
+    height: 15px;
+}
+
+app-messaging app-messaging-contacts app-header {
+    display: none;
+}
+
+app-messaging app-messaging-contacts app-ticker.Ticker {
+    display: none;
+}
+
+app-messaging app-messaging-contacts app-filter-switch.FilterSwitch {
+    background: #139ff0;
+    color: white;
+}
+
+.BitsListItem .BitsListItemContainer .BitsListItemHeader.OuterPadding fl-bit.Header.DefaultExpandable {
+    background: #139ff0;
+}
+
+.BitsListItemHeader .Header fl-list-item-header fl-text.ThreadRowTitle span.NativeElement {
+    color: white;
+}
+
+app-message-item.MessageList-content-chatbox-wrapper fl-bit.Message fl-bit.MessageBody--last.MessageBody--other.MessageBody {
+    border-radius: 0 20px 20px 20px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+app-message-item.MessageList-content-chatbox-wrapper .Message fl-bit.MessageBody.MessageBody--other.MessageBody--first {
+    border-radius: 20px 20px 20px 0;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+app-message-item.MessageList-content-chatbox-wrapper .Message fl-bit.MessageBody.MessageBody--other.MessageBody--mid {
+    border-radius: 0 20px 20px 0;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+app-message-item.MessageList-content-chatbox-wrapper fl-bit.Message fl-bit.MessageBody--last.MessageBody--mine.MessageBody {
+    border-radius: 20px 0 20px 20px;
+    border-color: #7fa7c1;
+    border-style: solid;
+    border-width: 1px;
+}
+
+app-message-item.MessageList-content-chatbox-wrapper .Message fl-bit.MessageBody.MessageBody--mine.MessageBody--first {
+    border-radius: 20px 20px 0 20px;
+    border-color: #7fa7c1;
+    border-style: solid;
+    border-width: 1px;
+}
+
+app-message-item.MessageList-content-chatbox-wrapper .Message fl-bit.MessageBody.MessageBody--mine.MessageBody--mid {
+    border-radius: 20px 0 0 20px;
+    border-color: #7fa7c1;
+    border-style: solid;
+    border-width: 1px;
+}
+
+app-message-item.MessageList-content-chatbox-wrapper .Message fl-bit.MessageBody {
+    box-shadow: 0 2px 1px rgba(59, 43, 91, 0.1);
+}
+
+.gaf-container.grey-bg {
+    background: #4e4e4e !important;
+}
+
+.project_name {
+    color: white !important;
+}
+
+.pinky-template .main-content {
+    background: #323232;
+    padding-bottom: 40px;
+}
+
+.NavigationItem {
+    visibility: hidden !important;
+}
+
+.ng-tns-c220-3 {
+    visibility: visible !important;
+}
+
+#bid-ranker {
+    display: none !important;
+}

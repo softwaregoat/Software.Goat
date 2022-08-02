@@ -1,0 +1,9 @@
+.announcements,
+footer.up-footer,
+div.fe-proposal-boost-proposal {
+    display: none;
+}
+
+.up-card-visited {
+    border: 1px solid green;
+}
