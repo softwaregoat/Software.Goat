@@ -6,6 +6,7 @@ $(document).ready(function () {
     var countries = ['India', 'Pakistan', 'Vietnam', 'Indonesia', 'Bangladesh'];
 
     setInterval(function () {
+        console.clear();
         var new_btn = $('button[data-qa="load-newer-button"]');
         if (new_btn.length > 0) {
             console.log('new jobs', new_btn.length);

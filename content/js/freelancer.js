@@ -37,7 +37,7 @@ $(document).ready(function () {
         var ownner_role = "";
         setInterval(function () {
             blocked = false;
-
+            console.clear();
             $('fl-bit.SearchResultsHeader-notification.ng-star-inserted > fl-floating-action').click();
 
             if ($('.search-result-newProjectAlert-icon').length === 1) {
