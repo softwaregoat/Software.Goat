@@ -1,3 +1,18 @@
+app-footer-freelancer,
+app-upgrades-bid-form,
+.Footer-section,
+.bid-next-project,
+fl-bit.NavigationItem.NavigationItem--postProject>fl-button,
+fl-bit.UserCard-details>fl-text>div,
+#upsell-banners-anchor,
+div.search-filter-wrapper,
+div.project-brief-cta,
+a#add-milestone-proposal,
+div#proposal-slider,
+.fl-banner.fl-banner-compact.inline-bids-bid-ranking-guide-banner.PageFreelancerPvp-banner.FeatureFlag-community {
+    display: none !important;
+}
+
 span.result {
     background: linear-gradient(180deg, #fc8c14 0, #f77d0e);
     border-radius: 3px;
@@ -44,22 +59,6 @@ div.checked-result {
 
 .BidProposal-footer-action {
     margin-right: auto;
-}
-
-app-footer-freelancer,
-app-upgrades-bid-form,
-#upsell-banners-anchor,
-.Footer-section,
-.bid-next-project,
-fl-bit.NavigationItem.NavigationItem--postProject>fl-button,
-fl-bit.UserCard-details>fl-text>div,
-#upsell-banners-anchor,
-div.search-filter-wrapper,
-div.project-brief-cta,
-a#add-milestone-proposal,
-div#proposal-slider,
-.fl-banner.fl-banner-compact.inline-bids-bid-ranking-guide-banner.PageFreelancerPvp-banner.FeatureFlag-community {
-    display: none;
 }
 
 app-message-list,
@@ -148,29 +147,4 @@ app-message-item.MessageList-content-chatbox-wrapper .Message fl-bit.MessageBody
 
 app-message-item.MessageList-content-chatbox-wrapper .Message fl-bit.MessageBody {
     box-shadow: 0 2px 1px rgba(59, 43, 91, 0.1);
-}
-
-.gaf-container.grey-bg {
-    background: #4e4e4e !important;
-}
-
-.project_name {
-    color: white !important;
-}
-
-.pinky-template .main-content {
-    background: #323232;
-    padding-bottom: 40px;
-}
-
-.NavigationItem {
-    visibility: hidden !important;
-}
-
-.ng-tns-c220-3 {
-    visibility: visible !important;
-}
-
-#bid-ranker {
-    display: none !important;
 }
