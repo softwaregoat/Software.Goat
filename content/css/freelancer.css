@@ -9,7 +9,9 @@ div.search-filter-wrapper,
 div.project-brief-cta,
 a#add-milestone-proposal,
 div#proposal-slider,
-.fl-banner.fl-banner-compact.inline-bids-bid-ranking-guide-banner.PageFreelancerPvp-banner.FeatureFlag-community {
+.fl-banner.fl-banner-compact.inline-bids-bid-ranking-guide-banner.PageFreelancerPvp-banner.FeatureFlag-community,
+app-messaging app-messaging-contacts app-header,
+app-messaging app-messaging-contacts app-ticker.Ticker {
     display: none !important;
 }
 
@@ -80,14 +82,6 @@ fl-list-item-body.ThreadSetBody fl-bit.ThreadList fl-bit.ThreadListItem fl-bit.M
 fl-bit.UserAvatar fl-bit.UserAvatar-inner fl-online-indicator.OnlineStatus div.Indicator {
     width: 15px;
     height: 15px;
-}
-
-app-messaging app-messaging-contacts app-header {
-    display: none;
-}
-
-app-messaging app-messaging-contacts app-ticker.Ticker {
-    display: none;
 }
 
 app-messaging app-messaging-contacts app-filter-switch.FilterSwitch {

@@ -21,11 +21,11 @@ $(document).ready(function () {
             var section = sections[i];
 
             // //*** payment status ***
-            var payment = $(section).find('strong.text-muted')[0].innerText.trim();
-            if (payment === 'Payment unverified') {
-                $(section).css('display', 'none');
-                continue;
-            }
+            // var payment = $(section).find('strong.text-muted')[0].innerText.trim();
+            // if (payment === 'Payment unverified') {
+            //     $(section).css('display', 'none');
+            //     continue;
+            // }
 
             var job_type = $(section).find('[data-test="job-type"]')[0].innerText.trim();
 
@@ -62,7 +62,7 @@ $(document).ready(function () {
                 is_top = true;
             }
         }
-    }, 5000);
+    }, 2000);
 
     setInterval(function () {
         location.reload()

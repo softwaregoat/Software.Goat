@@ -176,7 +176,7 @@ $(document).ready(function () {
                     if (!blocked) window.open("https://www.freelancer.com" + project_url + "?ngsw-bypass=&w=f#placebid", "_blank");
                 });
             }
-        }, 1500);
+        }, 2000);
     }
     else if (url.toLowerCase().indexOf("com/projects/") >= 0) {
         // Place bid page
